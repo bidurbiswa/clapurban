@@ -335,6 +335,10 @@ body a:hover {
 		height: 30vh;
 	}
 
+	#app-download-iphone {
+		padding-top: 18vh;
+	}
+
 	#img-icon-google, #img-icon-apple {
 		height: 5vh;
 		width: 25vw;
@@ -366,6 +370,10 @@ body a:hover {
 
 }
 
+#app-download-text {
+	padding-top: 25vh;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1317px) {
 	.search-text {
 		margin-left: 8vw;
@@ -382,6 +390,22 @@ body a:hover {
 @media screen and (max-width: 540px) {
 	#header-text {
 		font-size: 2.4rem;
+	}
+	#footer-nav h2 {
+		padding-left: 18vw;
+	}
+	#app-download-iphone {
+		height: 30vh;
+		padding-top: 4vh;
+		padding-bottom: 2vh;
+	}
+
+	#app-download-text {
+		padding-top: 8vh;
+	}
+
+	.nav-icon {
+		width: 17vw;
 	}
 
 }
