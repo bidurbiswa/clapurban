@@ -45,8 +45,8 @@ $(document).ready(function(){
 	$(window).resize(function(){
 		if($(this).width() <= 768){
 			$('#mid-nav-row>div').addClass('border');
-			$('.search-text').focus(function(){
-				$(this).css('height', '100%');
+			$('input').focus(function(){
+				$('input').css('height', '100%');
 			})
 		}else {
 			$('#mid-nav-row>div').removeClass('border');
