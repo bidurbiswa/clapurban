@@ -46,7 +46,7 @@ $(document).ready(function(){
 		if($(this).width() <= 768){
 			$('#mid-nav-row>div').addClass('border');
 			$('input').focus(function(){
-				$('input').css('height', '100%');
+				$('#search-text-row').css('height', '10vh');
 			})
 		}else {
 			$('#mid-nav-row>div').removeClass('border');
