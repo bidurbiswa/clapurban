@@ -405,7 +405,10 @@ body a:hover {
 	}
 
 	.nav-icon {
-		width: 25vw;
+		width: 23vw;
+		height: auto;
 	}
-
+	#footer-nav-service {
+		padding-right: 10vw;
+	}
 }
