@@ -48,7 +48,9 @@ $(document).ready(function(){
 			$('input').focus(function(){
 				$('#search-text-row').css({
 					'padding-top': '0',
-					'padding-bottom': '3vh'
+					'padding-bottom': '3vh',
+					'z-index': '1',
+					 'height': '9vh'
 				});
 			})
 		}else {
