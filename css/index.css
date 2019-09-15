@@ -405,7 +405,8 @@ body a:hover {
 	}
 
 	.nav-icon {
-		width: 17vw;
+		width: 25vw;
+		height: auto;
 	}
 
 }
